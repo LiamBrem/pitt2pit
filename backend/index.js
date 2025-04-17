@@ -2,9 +2,12 @@ const express = require('express');
 const session = require('express-session');
 const passport = require('passport');
 require('dotenv').config();
-require('./auth/google'); // Your Google strategy setup
+require('./auth/google');
+const { PrismaClient } = require('@prisma/client');
 
 const app = express();
+
+const prisma = new PrismaClient();
 
 // Session middleware
 app.use(session({
