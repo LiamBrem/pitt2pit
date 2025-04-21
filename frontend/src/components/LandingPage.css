@@ -3,6 +3,19 @@
   background: linear-gradient(135deg, #0000FF 0%, #4169E1 100%);
   color: white;
   padding: 2rem;
+  position: relative;
+}
+.background-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  width: auto;
+  z-index: 0;
+  opacity: 0.15;
+  pointer-events: none;
+  object-fit: cover;
 }
 
 .content-wrapper {

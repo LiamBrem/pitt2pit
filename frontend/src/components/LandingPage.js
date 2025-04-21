@@ -7,22 +7,8 @@ const LandingPage = () => {
       <div className="content-wrapper">
         <div className="left-section">
           <h1>Ubers to PIT from <span className="price">$9</span></h1>
-          <h2>Split your ride with other Pitt students</h2>
+          <h2>Split your ride with other verified Pitt students</h2>
           
-          <div className="features">
-            <div className="feature">
-              <div className="feature-icon">👥</div>
-              <div className="feature-text">Share rides with verified Pitt students only</div>
-            </div>
-            <div className="feature">
-              <div className="feature-icon">🕒</div>
-              <div className="feature-text">Schedule rides in advance or on-demand</div>
-            </div>
-            <div className="feature">
-              <div className="feature-icon">💰</div>
-              <div className="feature-text">Save money by splitting the fare</div>
-            </div>
-          </div>
 
           <div className="powered-by">
             <span>Powered by</span>
@@ -53,8 +39,13 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+      <img
+        src={`${process.env.PUBLIC_URL}/cathy.png`}
+        alt="Cathy"
+        className="background-image"
+      />
     </div>
   );
 };
 
-export default LandingPage; 
+export default LandingPage;
