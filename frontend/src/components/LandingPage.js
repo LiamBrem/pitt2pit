@@ -26,9 +26,9 @@ const LandingPage = () => {
 
           <div className="powered-by">
             <span>Powered by</span>
-            <img src="/uber-logo.png" alt="Uber" className="partner-logo" />
+            <img src={`${process.env.PUBLIC_URL}/uber_logo.png`} alt="Uber" className="partner-logo" />
             <span>and</span>
-            <img src="/pitt-logo.png" alt="Pitt" className="partner-logo" />
+            <img src={`${process.env.PUBLIC_URL}/lyft_logo.png`} alt="Lyft" className="partner-logo" />
           </div>
         </div>
 
