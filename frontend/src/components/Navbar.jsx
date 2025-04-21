@@ -8,8 +8,8 @@ const Navbar = () => {
         <span className="logo">Pitt2PIT</span>
       </div>
       <div className="navbar-buttons">
-        <button className="btn btn-outline">Sign Up</button>
-        <button className="btn btn-primary">Sign In</button>
+        <button className="btn btn-outline">Sign In</button>
+        <button className="btn btn-primary">Get Started</button>
       </div>
     </nav>
   );

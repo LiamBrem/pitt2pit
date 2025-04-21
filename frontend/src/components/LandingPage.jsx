@@ -43,6 +43,13 @@ const LandingPage = () => {
         alt="Cathy"
         className="background-image"
       />
+
+
+<div className="how-it-works">
+        <span className="arrow-bounce">v</span>
+        <span className="how-text">This is how it works</span>
+        <span className="arrow-bounce">v</span>
+      </div>
     </div>
   );
 };
