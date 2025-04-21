@@ -9,7 +9,6 @@ const LandingPage = () => {
           <h1>Ubers to PIT from <span className="price">$9</span></h1>
           <h2>Split your ride with other verified Pitt students</h2>
           
-
           <div className="powered-by">
             <span>Powered by</span>
             <img src={`${process.env.PUBLIC_URL}/uber_logo.png`} alt="Uber" className="partner-logo" />
